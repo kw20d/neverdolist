@@ -7,7 +7,7 @@ A small to-do app with an animated logo, built with plain HTML, CSS and JavaScri
 **Live demo:** https://neverdolist.netlify.app/
 
 ![To Do List screenshot](screenshot.png)
-![Logo Animation](logo.webm)
+![Logo Animation](logo.gif)
 
 ## Features
 
