@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="todoIcon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="toDoList.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div id="logo-ani">
+        <video  id="logo-vid" autoplay muted playsinline src="fadeIn.webm" type="video/webm"></video>
+        <video  id="logo-loop" loop muted playsinline src="logoLoop.webm" type="video/webm"></video>
+    </div>
+    <p id="sub"><em>A little progress every day</em></p>
+    <div class="container">
+        <div class="ui-display">
+            <!--<video  id="title-1" autoplay loop muted playsinline src="title1.webm" type="video/webm"></video>-->
+            <input class="input" type="text" placeholder="Enter your Task">
+            <div class="wrapper">
+                <ul id="tasks" class="list-group">
+                    <li><p id="counter"><span id="counter-badge">0</span> tasks remaining</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p>by: <a href="https://www.instagram.com/zix9ted/" target="_blank"><em>ZixTed</em></a>
+    <script src="toDoList.js"></script>
+</body>
+</html>
